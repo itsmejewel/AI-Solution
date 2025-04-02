@@ -1,0 +1,163 @@
+/* @import "tailwindcss"; */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Jersey+10&family=Jersey+15+Charted&family=Pixelify+Sans:wght@400..700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+a {
+    cursor: crosshair;
+}
+
+button {
+    cursor: crosshair;
+}
+
+.text-jersey {
+    font-family: "Jersey 10", serif;
+
+} 
+
+@keyframes glitch {
+    0% { opacity: 1; transform: translate(0); }
+    20% { opacity: 0.8; transform: translate(-2px, 2px); }
+    40% { opacity: 1; transform: translate(2px, -2px); }
+    60% { opacity: 0.8; transform: translate(-1px, 1px); }
+    80% { opacity: 1; transform: translate(1px, -1px); }
+    100% { opacity: 1; transform: translate(0); }
+  }
+  
+  .glitch-text {
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .glitch-text:hover {
+    animation: glitch 0.2s infinite;
+  }
+  
+
+.hr-default {
+    color: #1f1f1f;
+    width: 80vw;
+
+}
+
+.text-largest {
+    font-size: 10em;
+    font-family: "Sometype Mono", serif;
+    font-weight: 600;
+    letter-spacing: -0.06em;
+    color: #1f1f1f;
+
+}
+
+.text-extra {
+    font-size: 11em;
+    font-family: "Sometype Mono", serif;
+    font-weight: 450;
+    /* letter-spacing: -0.06em; */
+    color: #1f1f1f;
+
+}
+
+.text-solutions-title {
+    font-size: 6em;
+    font-family: "Sometype Mono", serif;
+    font-weight: 450;
+    color: #1f1f1f;
+    letter-spacing: -0.09em;
+}
+
+.text-solutions {
+    font-size: 7em;
+    font-family: "Pixelify Sans", serif;
+    letter-spacing: -0.09em;
+    line-height: 0.6em;
+    color: #1f1f1f;
+    font-weight: 800;
+}
+
+.text-pixel {
+    font-family: "Pixelify Sans", serif;
+    
+}
+
+.text-ada {
+    font-weight: 500;
+}
+
+.text-space {
+    letter-spacing: -0.06em;
+}
+
+.line-color {
+    color: #1f1f1f;
+}
+
+.line-special {
+    line-height: 0.6em;
+}
+
+.text-large {
+    font-size: 4em;
+    font-family: "Sometype Mono", serif;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    color: #1f1f1f;
+
+}
+
+.text-medium {
+    font-size: 1.5em;
+    font-family: "Sometype Mono", serif;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    color: #1f1f1f;
+}
+
+.text-regular {
+    font-family: "Sometype Mono", serif;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    color: #1f1f1f;
+
+}
+
+@keyframes glitch {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.7;
+        transform: translateX(2px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(-2px);
+    }
+
+    75% {
+        opacity: 0.7;
+        transform: translateX(2px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.glitch-text {
+    animation: glitch 0.0001s infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* SOLUTIONS */

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+  font-family: "Sometype Mono", serif;
+  background-color: #F6F7F9;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
